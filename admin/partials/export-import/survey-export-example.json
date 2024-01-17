@@ -1,0 +1,211 @@
+{
+    "ays_survey_key": 1,
+    "surveys": [{
+        "author_id": "1",
+        "title": "Survey Maker Plugin Survey",
+        "description": "",
+        "question_ids": "43,44,45,46,47,48,49",
+        "section_ids": "21",
+        "sections_count": "1",
+        "questions_count": "7",
+        "date_created": "2021-05-27 11:48:36",
+        "date_modified": "2021-05-31 05:40:18",
+        "image": "",
+        "status": "published",
+        "trash_status": "",
+        "ordering": "7",
+        "post_id": "0",
+        "options": "{\"survey_theme\":\"classic_light\",\"survey_color\":\"#f98a0c\",\"survey_background_color\":\"#fff\",\"survey_text_color\":\"#333\",\"survey_buttons_text_color\":\"#333\",\"survey_width\":\"\",\"survey_width_by_percentage_px\":\"percentage\",\"survey_mobile_max_width\":\"\",\"survey_custom_class\":\"\",\"survey_custom_css\":\"\",\"survey_logo\":\"\",\"survey_question_font_size\":16,\"survey_question_image_width\":\"\",\"survey_question_image_height\":\"\",\"survey_question_image_sizing\":\"cover\",\"survey_answer_font_size\":15,\"survey_answers_view\":\"list\",\"survey_answers_object_fit\":\"cover\",\"survey_answers_padding\":8,\"survey_answers_gap\":0,\"survey_buttons_size\":\"medium\",\"survey_buttons_font_size\":14,\"survey_buttons_left_right_padding\":24,\"survey_buttons_top_bottom_padding\":0,\"survey_buttons_border_radius\":4,\"survey_show_title\":\"off\",\"survey_show_section_header\":\"on\",\"survey_enable_randomize_answers\":\"off\",\"survey_enable_randomize_questions\":\"off\",\"survey_enable_rtl_direction\":\"off\",\"survey_enable_leave_page\":\"on\",\"survey_enable_clear_answer\":\"off\",\"survey_auto_numbering\":\"none\",\"survey_enable_i_autofill\":\"off\",\"survey_enable_copy_protection\":\"off\",\"survey_enable_schedule\":\"off\",\"survey_schedule_active\":\"2021-05-31 05:40:18\",\"survey_schedule_deactive\":\"2021-05-31 05:40:18\",\"survey_schedule_show_timer\":\"off\",\"survey_show_timer_type\":\"countdown\",\"survey_schedule_pre_start_message\":\"The survey will be available soon!\",\"survey_schedule_expiration_message\":\"This survey has expired!\",\"survey_redirect_after_submit\":\"off\",\"survey_submit_redirect_url\":\"\",\"survey_submit_redirect_delay\":\"\",\"survey_enable_exit_button\":\"off\",\"survey_exit_redirect_url\":\"\",\"survey_final_result_text\":\"<p style=\\\"text-align: center;font-weight: 500\\\">Thank you for your time! \\u23f1\\r\\n<em><span style=\\\"font-size: 13px;color: gray\\\">This survey is made by <a href=\\\"https:\\/\\/ays-pro.com\\/wordpress\\/survey-maker\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\"><strong>Survey Maker<\\/strong><\\/a> plugin.<\\/span><\\/em><\\/p>\",\"survey_loader\":\"snake\",\"survey_limit_users\":\"off\",\"survey_limit_users_by\":\"ip\",\"survey_max_pass_count\":1,\"survey_limitation_message\":\"\",\"survey_redirect_url\":\"\",\"survey_redirect_delay\":0,\"survey_enable_logged_users\":\"off\",\"survey_logged_in_message\":\"\",\"survey_show_login_form\":\"off\",\"survey_enable_for_user_role\":\"off\",\"survey_user_roles\":[],\"survey_user_roles_message\":\"\",\"survey_enable_for_user\":\"off\",\"survey_user\":[],\"survey_user_message\":\"\",\"survey_enable_takers_count\":\"off\",\"survey_takers_count\":1,\"survey_enable_password\":\"off\",\"survey_password_survey\":\"\",\"survey_enable_mail_user\":\"off\",\"survey_send_mail_type\":\"custom\",\"survey_mail_message\":\"\",\"survey_enable_mail_admin\":\"off\",\"survey_send_mail_to_site_admin\":\"on\",\"survey_additional_emails\":\"\",\"survey_mail_message_admin\":\"\",\"survey_email_configuration_from_email\":\"\",\"survey_email_configuration_from_name\":\"\",\"survey_email_configuration_from_subject\":\"\",\"survey_email_configuration_replyto_email\":\"\",\"survey_email_configuration_replyto_name\":\"\",\"survey_send_summary_email_to_site_admin\":\"off\",\"survey_send_summary_email_to_users\":\"off\",\"survey_send_summary_email_to_additional_users\":\"\",\"enable_mailchimp\":\"off\",\"mailchimp_list\":\"\",\"enable_monitor\":\"off\",\"monitor_list\":\"\",\"enable_active_camp\":\"off\",\"active_camp_list\":\"\",\"active_camp_automation\":\"\",\"enable_slack\":\"off\",\"slack_conversation\":\"\",\"enable_google_sheets\":\"off\",\"all_questions\":{\"43\":\"Which package are you using?\",\"44\":\"How happy are you with the Survey Maker plugin?\",\"45\":\"Please provide your feature suggestion in the box below. All suggestions are welcomed!\",\"46\":\"Have you ever contacted our customer support service?\",\"47\":\"How helpful do you find our customer support service?\",\"48\":\"Do you know about 30 days of money-back guarantee?\",\"49\":\"Please provide your email address. We will contact you for further discussion and provide a solution that makes you smile :)\"},\"enable_zapier\":\"off\",\"survey_sendgrid_template_id\":\"\"}",
+        "survey_categories": {
+            "4": "Survey for Plugins"
+        },
+        "sections": [{
+            "id": "21",
+            "title": "Survey Maker Plugin Survey",
+            "ordering": "1"
+        }],
+        "questions": [{
+            "id": "43",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "Which package are you using?",
+            "type": "radio",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "1",
+            "options": "{\"required\":\"on\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"\",\"linear_scale_2\":\"\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [{
+                "answer": "Free",
+                "image": "",
+                "ordering": "1",
+                "placeholder": "",
+                "options": ""
+            }, {
+                "answer": "Business",
+                "image": "",
+                "ordering": "2",
+                "placeholder": "",
+                "options": ""
+            }, {
+                "answer": "Developer",
+                "image": "",
+                "ordering": "3",
+                "placeholder": "",
+                "options": ""
+            }],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "44",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "How happy are you with the Survey Maker plugin?",
+            "type": "linear_scale",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "2",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"Not helpful at all\",\"linear_scale_2\":\"Very helpful\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "45",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "Please provide your feature suggestion in the box below. All suggestions are welcomed!",
+            "type": "text",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "https://ays-demo.com/wp-content/uploads/2021/05/suggestion-box.jpg",
+            "ordering": "3",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"\",\"linear_scale_2\":\"\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "46",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "Have you ever contacted our customer support service?",
+            "type": "radio",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "4",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"\",\"linear_scale_2\":\"\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [{
+                "answer": "Yes",
+                "image": "",
+                "ordering": "1",
+                "placeholder": "",
+                "options": ""
+            }, {
+                "answer": "No",
+                "image": "",
+                "ordering": "2",
+                "placeholder": "",
+                "options": ""
+            }],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "47",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "If yes, how helpful do you find our customer support service?",
+            "type": "linear_scale",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "5",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"Not helpful at all\",\"linear_scale_2\":\"Very helpful\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "48",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "Do you know about 30 days of money-back guarantee?",
+            "type": "radio",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "6",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"\",\"linear_scale_2\":\"\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [{
+                "answer": "Yes",
+                "image": "",
+                "ordering": "1",
+                "placeholder": "",
+                "options": ""
+            }, {
+                "answer": "No",
+                "image": "",
+                "ordering": "2",
+                "placeholder": "",
+                "options": ""
+            }],
+            "question_categories": {
+                "4": null
+            }
+        }, {
+            "id": "49",
+            "author_id": "1",
+            "section_id": "21",
+            "category_ids": "4",
+            "question": "Please provide your email address. We will contact you for further discussion and provide a solution that makes you smile :)",
+            "type": "email",
+            "status": "published",
+            "trash_status": "",
+            "date_created": "2021-05-27 11:48:36",
+            "date_modified": "2021-05-31 05:40:18",
+            "user_variant": "off",
+            "user_explanation": "",
+            "image": "",
+            "ordering": "7",
+            "options": "{\"required\":\"off\",\"collapsed\":\"expanded\",\"linear_scale_1\":\"\",\"linear_scale_2\":\"\",\"star_1\":\"\",\"star_2\":\"\",\"enable_max_selection_count\":\"off\",\"max_selection_count\":\"\"}",
+            "answers": [],
+            "question_categories": {
+                "4": null
+            }
+        }]
+    }]
+}

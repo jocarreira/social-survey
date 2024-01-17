@@ -1,0 +1,21 @@
+div.ays-survey-affiliate-main.wrap div.ays-survey-affiliate-main-box{
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+div.ays-survey-affiliate-main.wrap div.ays-survey-affiliate-main-box .ays-survey-affiliate-texts-box{
+    margin-top: 25px;
+}
+
+div.ays-survey-affiliate-main.wrap div.ays-survey-affiliate-main-box .ays-survey-affiliate-link{
+    display: inline-block;
+    padding: 10px;
+    background-color: #2271b1;
+    color: white;
+    border-radius: 4px;
+}
+
+div.ays-survey-affiliate-main.wrap div.ays-survey-affiliate-main-box .ays-survey-affiliate-menus{
+    padding:0 10px;
+}

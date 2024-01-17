@@ -1,0 +1,121 @@
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-header,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section .ays-survey-section-header.ays-survey-business-theme-header,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-header > .ays-survey-results .ays-survey-thank-you-page .ays-survey-submission-summary-question-container, 
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-header > .ays-survey-results .ays-survey-thank-you-page .ays-survey-submission-summary-section-header {
+    box-shadow: unset;
+    border: none;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-checkmark-label-container .ays-survey-answer-label-content .ays-survey-answer-icon-content,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question .ays-survey-answer-business-hover .ays-survey-answer-label-content .ays-survey-answer-icon-content{
+    display: none;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-content > .ays-survey-question-answers > .ays-survey-answer{
+    border: 1px solid #00000000;
+    border-radius: 7px;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-content > .ays-survey-question-answers .ays-survey-answer-business-hover:hover{
+    border-radius: 7px;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-content > .ays-survey-question-answers .ays-survey-answer-business-hover.ays-survey-answer-business-active{
+    background-color: #f2f2f2;
+    border-radius: 7px;
+}                   
+            
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question {
+    padding: 0;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-content > .ays-survey-question-answers > .ays-survey-answer .ays-survey-business-checkmark-label-container input:checked + .ays-survey-question-content   {
+    display: none;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-content{
+    padding: 10px;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question .ays-survey-answer-business-hover .ays-survey-answer-label-content > span {
+    line-height: 1;
+    font-style: normal; 
+    font-weight: 300; 
+    text-decoration: none;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container input.ays-survey-question-input,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container textarea.ays-survey-question-input-textarea,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-other-text input.ays-survey-answer-other-input{
+    background: unset !important;
+    border-radius: 0px;
+    padding: 13px;
+} 
+            
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-question-select-container-business {
+    width: 200px;
+    height: auto;
+    outline: none;
+    padding: 10px;
+}
+
+.ays-survey-business-theme-question .ays-survey-question-answers-grid .ays-survey-answer-grid.ays-survey-other-answer-container .ays-survey-answer-other-text{
+    margin-top: 12px;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-upload-type-main .ays-survey-answer-upload-type-button img{
+    filter: invert(100%) sepia(3%) saturate(2%) hue-rotate(171deg) brightness(114%) contrast(100%);
+}
+
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-buttons .ays-survey-section-button-container{
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-matrix-scale-main .ays-survey-answer-matrix-scale-container .ays-survey-answer-matrix-scale-row,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-slider-list-main .ays-survey-answer-slider-list-container .ays-survey-answer-slider-list-row,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-star-list-main .ays-survey-answer-star-list-container .ays-survey-answer-star-list-row,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-star.ays-survey-business-star-answer,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-individual-submission-conatiner-star.ays-survey-business-star-answer{
+    background-color: rgba(0,0,0,0.05);
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-buttons .ays-survey-section-button-container:hover,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-results-content .ays-survey-thank-you-summary-submission-main-container button.ays-survey-single-submission-results-export:hover,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-upload-type-main .ays-survey-answer-upload-type-button:hover,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-upload-type-main .ays-survey-answer-upload-type-button:focus{
+    outline: 1px solid;
+    outline-offset: 5px;
+    transition: all .2s linear;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section .ays-survey-section-header.ays-survey-business-theme-header{
+    padding: 24px 0;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-question-header,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-question-title,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-answer-other-text{
+    margin: 0;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-section-questions > .ays-survey-question.ays-survey-business-theme-question .ays-survey-answer-label-other,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-submission-sections > .ays-survey-answer-label-other .ays-survey-business-checkmark-label-container{
+    display: flex;
+    margin: 0;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-submission-sections .ays-survey-answer-label-other.ays-survey-ind-submission-other,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-submission-sections .ays-survey-answer-label-other.ays-survey-ind-submission-other label.ays-survey-answer-label-other{
+    padding: 0 ' . $answer_padding . 'px;
+    margin: 0;
+}
+
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question input.ays-survey-question-input ~ .ays-survey-input-underline,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question input.ays-survey-question-input ~ .ays-survey-input-underline-animation,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question textarea.ays-survey-question-input ~ .ays-survey-input-underline,
+div[id*='ays-survey-container'][data-theme='business'].ays-survey-container .ays-survey-business-theme-question textarea.ays-survey-question-input ~ .ays-survey-input-underline-animation{
+    display: none;
+}

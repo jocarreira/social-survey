@@ -1,0 +1,186 @@
+{
+    "ays_survey_key": 1,
+    "title": "Product Research Survey Template",
+    "options": [{"survey_theme":"classic_light","survey_color":"#f98a0c","survey_background_color":"#fff","survey_text_color":"#333","survey_buttons_text_color":"#333","survey_width":"","survey_width_by_percentage_px":"percentage","survey_mobile_max_width":"","survey_custom_class":"","survey_custom_css":"","survey_logo":"","survey_question_font_size":16,"survey_question_image_width":"","survey_question_image_height":"","survey_question_image_sizing":"cover","survey_answer_font_size":15,"survey_answers_view":"list","survey_answers_object_fit":"cover","survey_answers_padding":8,"survey_answers_gap":0,"survey_buttons_size":"medium","survey_buttons_font_size":14,"survey_buttons_left_right_padding":24,"survey_buttons_top_bottom_padding":0,"survey_buttons_border_radius":4,"survey_show_title":"off","survey_show_section_header":"on","survey_enable_randomize_answers":"off","survey_enable_randomize_questions":"off","survey_enable_rtl_direction":"off","survey_enable_leave_page":"on","survey_enable_clear_answer":"off","survey_auto_numbering":"none","survey_enable_i_autofill":"off","survey_enable_copy_protection":"off","survey_enable_schedule":"off","survey_schedule_active":"2021-05-31 05:40:18","survey_schedule_deactive":"2021-05-31 05:40:18","survey_schedule_show_timer":"off","survey_show_timer_type":"countdown","survey_schedule_pre_start_message":"The survey will be available soon!","survey_schedule_expiration_message":"This survey has expired!","survey_redirect_after_submit":"off","survey_submit_redirect_url":"","survey_submit_redirect_delay":"","survey_enable_exit_button":"off","survey_exit_redirect_url":"","survey_final_result_text":"<p style=\"text-align: center;font-weight: 500\">Thank you for your time! \u23f1\r\n<em><span style=\"font-size: 13px;color: gray\">This survey is made by <a href=\"https:\/\/ays-pro.com\/wordpress\/survey-maker\" target=\"_blank\" rel=\"noopener\"><strong>Survey Maker<\/strong><\/a> plugin.<\/span><\/em><\/p>","survey_loader":"snake","survey_limit_users":"off","survey_limit_users_by":"ip","survey_max_pass_count":1,"survey_limitation_message":"","survey_redirect_url":"","survey_redirect_delay":0,"survey_enable_logged_users":"off","survey_logged_in_message":"","survey_show_login_form":"off","survey_enable_for_user_role":"off","survey_user_roles":[],"survey_user_roles_message":"","survey_enable_for_user":"off","survey_user":[],"survey_user_message":"","survey_enable_takers_count":"off","survey_takers_count":1,"survey_enable_password":"off","survey_password_survey":"","survey_enable_mail_user":"off","survey_send_mail_type":"custom","survey_mail_message":"","survey_enable_mail_admin":"off","survey_send_mail_to_site_admin":"on","survey_additional_emails":"","survey_mail_message_admin":"","survey_email_configuration_from_email":"","survey_email_configuration_from_name":"","survey_email_configuration_from_subject":"","survey_email_configuration_replyto_email":"","survey_email_configuration_replyto_name":"","survey_send_summary_email_to_site_admin":"off","survey_send_summary_email_to_users":"off","survey_send_summary_email_to_additional_users":"","enable_mailchimp":"off","mailchimp_list":"","enable_monitor":"off","monitor_list":"","enable_active_camp":"off","active_camp_list":"","active_camp_automation":"","enable_slack":"off","slack_conversation":"","enable_google_sheets":"off","all_questions":{"43":"Which package are you using?","44":"How happy are you with the Survey Maker plugin?","45":"Please provide your feature suggestion in the box below. All suggestions are welcomed!","46":"Have you ever contacted our customer support service?","47":"How helpful do you find our customer support service?","48":"Do you know about 30 days of money-back guarantee?","49":"Please provide your email address. We will contact you for further discussion and provide a solution that makes you smile :)"},"enable_zapier":"off","survey_sendgrid_template_id":""}],
+    "sections": [{
+        "title": "Product Research Survey",
+        "ordering": "1",
+        "questions": [{
+            "question": "So, what type of work do you do?",
+            "type": "select",
+            "user_variant": "off",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"5","star_1":"","star_2":"","star_scale_length":"","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Product",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Sales",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Engineering",
+              "ordering": "3",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Design",
+              "ordering": "4",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Customer success",
+              "ordering": "5",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "CEO",
+              "ordering": "6",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "And how many people work at your company?",
+            "type": "radio",
+            "user_variant": "off",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"No well at all","linear_scale_2":"Extremely well","scale_length":"10","star_1":"","star_2":"","star_scale_length":"5","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Just me",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "1 to 10",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "11-50",
+              "ordering": "3",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "More than 50",
+              "ordering": "4",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "Does your company currently do marketing analytics?",
+            "type": "yesorno",
+            "user_variant": "off",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"10","star_1":"","star_2":"","star_scale_length":"","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Yes",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "No",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "What department(s) are responsible for marketing analytics?",
+            "type": "radio",
+            "user_variant": "on",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"5","star_1":"","star_2":"","star_scale_length":"","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Product",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Marketing",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Customer success",
+              "ordering": "3",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "What’s your biggest frustration when it comes to doing marketing analytics?",
+            "type": "short_text",
+            "user_variant": "off",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"1","linear_scale_2":"10","scale_length":"10","star_1":"","star_2":"","star_scale_length":"","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": []
+        }, {
+            "question": "Which of the following tools have you used to do marketing analytics in the last 12 months?",
+            "type": "checkbox",
+            "user_variant": "off",
+            "options": [{"required":"on","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"5","star_1":"","star_2":"","star_scale_length":"5","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Google analytics",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Kissmetrics",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Mozz",
+              "ordering": "3",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Cyfe",
+              "ordering": "4",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "Klipfolio",
+              "ordering": "5",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "Are you paying for a subscription for any of these?",
+            "type": "yesorno",
+            "user_variant": "off",
+            "options": [{"required":"off","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"5","star_1":"","star_2":"","star_scale_length":"5","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": [{
+              "answer": "Yes",
+              "ordering": "1",
+              "placeholder": "",
+              "options": ""
+            },
+            {
+              "answer": "No",
+              "ordering": "2",
+              "placeholder": "",
+              "options": ""
+            }]
+        }, {
+            "question": "Does the tool you are using fully meet your requirements? If no, please explain.",
+            "type": "text",
+            "user_variant": "off",
+            "options": [{"required":"off","collapsed":"expanded","linear_scale_1":"","linear_scale_2":"","scale_length":"5","star_1":"","star_2":"","star_scale_length":"5","enable_max_selection_count":"off","max_selection_count":"","min_selection_count":"","is_logic_jump":"off","user_explanation":"off","with_editor":"off","range_length":"","range_step_length":"","range_min_value":"","range_default_value":"","enable_admin_note":"off","admin_note":""}],
+            "answers": []
+        }]
+    }]
+}
+
+

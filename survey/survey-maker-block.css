@@ -1,0 +1,118 @@
+.ays_survey_maker_block_select {
+    width: 200px !important;
+}
+
+.ays_survey_maker_block_select_survey .ays_survey_maker_block_select {
+    width: 350px !important;
+}
+
+
+.ays_survey_maker_block_select select {
+    /* text-align: center !important; */
+    font-size: 14px !important;
+    width: 100% !important;
+    height: 40px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: initial !important;
+}
+
+.components-panel__header.edit-post-sidebar-header button[aria-label="Unpin from toolbar"] {
+    display: none;
+}
+
+.survey-maker-sidebar-content select {
+    width: 95%;
+}
+
+.survey-maker-sidebar-content > div > div {
+    text-align: center;
+}
+
+.survey-maker-sidebar-content label {
+    width: 100%;
+    text-align: left;
+    padding: 4px;
+}
+
+.ays_survey_maker_block_container {
+    box-sizing: border-box;
+}
+
+.ays-survey-container .ays-survey-section:first-of-type {
+    display: block;
+}
+
+.ays-survey-container .ays-survey-section-footer,
+.ays-survey-container .ays-survey-answer,
+.ays-survey-container textarea,
+.ays-survey-container select,
+.ays-survey-container input {
+    pointer-events: none;
+}
+
+.ays_survey_maker_block_select_survey {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 50px #9ea3a8 inset; */
+    border: 1px solid;
+    background-image: url(survey_logo.png);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-position: 50% 20%;
+    background-size: 100px;
+    /* align-items: center; */
+}
+
+
+.ays-survey-chat-header-main .ays-survey-chat-question-box:first-child .ays-survey-chat-question-item{
+    display: block !important;
+}
+
+.ays-survey-chat-item .ays-survey-chat-footer .ays-survey-chat-answer-box:first-child{
+    display: block !important;
+}
+
+/* 
+.ays_survey_maker_block_select_survey::before {
+    content: "";
+    width: 400px;
+    height: 200px;
+    background-image: url("survey_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    right: -12%;
+    opacity: .3;
+}
+
+
+.ays_survey_maker_block_select_survey p {
+    text-align: center;
+    margin: 0;
+} */
+
+.ays-survey-wait-loading-loader{
+    display: none;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1200px){
+    .ays_survey_maker_block_select_survey .ays_survey_maker_block_select {
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .ays_survey_maker_block_select_survey .ays_survey_maker_block_select {
+        width: 100% !important;
+    }
+}

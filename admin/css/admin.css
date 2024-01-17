@@ -1,0 +1,99 @@
+.ays-survey-menu-badge{
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    background: #ca4a1f;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+#adminmenu a.toplevel_page_quiz-maker.wp-menu-open div.wp-menu-image img {
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+#adminmenu a.toplevel_page_survey-maker div.wp-menu-name {    
+    transition: .3s ease-in-out;
+}
+#adminmenu a.toplevel_page_survey-maker div.wp-menu-image img {
+    width: 24px;
+    padding: 3px 0 0;
+    transition: .3s ease-in-out;
+}
+
+ul.ays-wp-notice-answers{
+    list-style-type: none;
+}
+
+#adminmenu li.toplevel_page_survey-maker ul.wp-submenu.wp-submenu-wrap li a {
+    transition: .3s ease-in-out;
+}
+#adminmenu li.toplevel_page_survey-maker ul.wp-submenu.wp-submenu-wrap li a[href*="feature"] {
+    color: #68A615;
+    font-weight: bold;
+}
+
+.survey-elementor-widget-logo-wrap .survey-elementor-widget-logo:before,
+.survey-elementor-widget-logo:before {
+    content: "";
+    background-image: url('../images/icons/survey_logo.png');
+    height: 30px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.survey-elementor-widget-logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.survey-elementor-widget-logo-wrap .survey-elementor-widget-logo {
+    display: inline-block;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.survey-elementor-widget-logo-wrap .survey-elementor-widget-logo:before {
+    text-align: left;
+}
+
+.swal2-popup .ays-survey-upgrade-button,
+.swal2-popup .ays-survey-cancel-button {
+    position: relative;
+}
+
+  .swal2-popup .ays-survey-upgrade-button.swal2-styled.swal2-confirm:after {
+    content: "(Save Your Data)";
+    position: absolute;
+    color: #878787;
+    bottom: -18px;
+    left: 25px;
+    font-size: 12px;
+}
+
+.swal2-popup .ays-survey-cancel-button.swal2-styled.swal2-cancel:after {
+    content: "(Delete All Data)";
+    position: absolute;
+    color: #878787;
+    bottom: -18px;
+    left: 30px;
+    font-size: 12px;
+}
+
+.swal2-popup .ays-survey-upgrade-button.swal2-styled.swal2-confirm {
+    background-color: #fff !important;
+    color: #3085d6 !important;
+    border: 1px solid #3085d6 !important;
+}

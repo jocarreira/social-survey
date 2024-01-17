@@ -1,0 +1,155 @@
+html.ays-survey-print-submissions,
+body.ays-survey-print-submissions {
+    font: 12pt Roboto, sans-serif, serif;
+    line-height: 1.3;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #f1f1f1 !important;
+}
+
+.ays-survey-print-submissions #adminmenumain,
+.ays-survey-print-submissions #wpadminbar,
+.ays-survey-print-submissions #wpfooter,
+.ays-survey-print-submissions #screen-meta-links,
+.ays-survey-print-submissions .ays-notice-banner,
+.ays-survey-print-submissions .wp-heading-inline,
+.ays-survey-print-submissions .ays-survey-question-action-butons,
+.ays-survey-print-submissions .nav-tab-wrapper
+{
+    display: none !important;
+}
+
+.ays-survey-print-submissions #wpcontent {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ays-survey-print-submissions #wpbody {
+    width: 100%;
+}
+
+.ays-survey-print-submissions div.clear {
+    display: none !important;
+}
+
+.ays-survey-print-submissions #wpbody-content {
+    background: #f1f1f1 !important;
+    float: none !important;
+    padding: 0 !important;
+}
+
+.ays-survey-print-submissions .wrap {
+    margin: 0 !important;
+}
+
+@page {
+    margin: 0cm;
+    padding: 1cm 0cm;
+}
+
+
+/* =======================  //  ======================= // ======================= // ======================= // ======================= */
+
+
+/* ============================================================= //
+// =====================    Summary Tab    ===================== //
+// ========================    START   ========================= */
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-tab-content {
+    display: none !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary #statistics_of_answer {
+    display: block !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-question-container {
+    margin-top: 20px !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-question-container,
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-section-header {
+    width: 90%;
+    max-width: 90% !important;
+    margin: 0 auto;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-section:not(:nth-child(2)) {
+    page-break-inside: avoid;
+    padding-top: 30px;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-header-container-survey-title {
+    display: block;
+    /* padding-top: 30px; */
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-section {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary div.ays-survey-submission-summary-question-container {
+    break-inside: avoid;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary div.ays_each_results_table > div:not(#statistics_of_answer) {
+    display: none !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary #statistics_of_answer .wrap {
+    padding-top: 20px;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-text-answers-div {
+    max-height: initial;
+    overflow-y: initial;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-text-answer {
+    break-inside: avoid;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-summary .ays-survey-submission-summary-question-container-buttons {
+    display: none;
+}
+
+/* ============================================================= //
+// =====================    Summary Tab    ===================== //
+// ========================    END    ========================== */
+
+
+/* =======================  //  ======================= // ======================= // ======================= // ======================= */
+
+
+/* ============================================================= //
+// ====================   Individual Tab   ===================== //
+// ========================    START   ========================= */
+
+.ays-survey-print-submissions.ays-survey-print-submissions-questions .ays-survey-tab-content {
+    display: none !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-questions #questions.ays-survey-tab-content {
+    display: block !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-questions #questions.ays-survey-tab-content .ays_survey_response_count,
+.ays-survey-print-submissions.ays-survey-print-submissions-questions #questions.ays-survey-tab-content .ays_survey_each_sub_user_info_header_button {
+    display: none !important;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-questions #questions.ays-survey-tab-content div.ays_survey_name,
+.ays-survey-print-submissions.ays-survey-print-submissions-questions #questions.ays-survey-tab-content div.ays_questions_answers {
+    break-inside: avoid;
+}
+
+.ays-survey-print-submissions.ays-survey-print-submissions-questions .ays-survey-submission-section{
+    page-break-inside: avoid;
+    padding-top: 30px;
+}
+
+/* ============================================================= //
+// ====================   Individual Tab   ===================== //
+// ========================    END    ========================== */

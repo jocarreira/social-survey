@@ -1,0 +1,497 @@
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+/************************************* DEVELOPER VERSION DIFFERENCE START ******************************************/
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+
+.ays-pro-features-v2-main-box,
+.ays-pro-features-v2-main-box *{
+    box-sizing: border-box;
+}
+
+.ays-pro-features-v2-main-box{
+    position: relative;
+    padding: 15px 10px;
+    background-color: rgba(53, 113, 196, 0.05);
+    transition: .15s;
+    border-radius: 10px;
+}
+
+.ays-pro-features-v2-main-box:not(.ays-pro-features-v2-main-box-small):hover{
+    background-color: rgba(53, 113, 196, 0.10);
+}
+
+.ays-pro-features-v2-main-box label{
+    color: #A3A3A3;
+}
+
+/* Small buttons start */
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box{
+    position: absolute;
+    right: 10px;
+    top: -12px;
+    z-index: 4;
+    display: flex;
+    gap: 3px;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button{
+    display: flex;
+    padding: 5px 13px;
+    background-color: #e0ffe4;
+    border-radius: 25px;
+    color: #178c07;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px #00000036;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button:hover{
+    color: #0F6304;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-button{
+    display: flex;
+    padding: 5px 13px;
+    background-color: #FFE9DE;
+    border-radius: 25px;
+    color: #F47535;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px #00000036;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-button:hover{
+    color: #FF5500;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-video-button{
+    display: flex;
+    padding: 5px 13px;
+    background-color: #E0EBFF;
+    border-radius: 25px;
+    color: #6392D4;
+    font-size: 15px;
+    box-shadow: 0px 1px 1px #00000036;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-video-button:hover{
+    color: #3571C4;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-icon,
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-video-icon,
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-icon{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    transition: .10s;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-icon{
+    opacity: 0.8;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button:hover .ays-pro-features-v2-view-demo-icon{
+    opacity: 1;
+}
+
+/* Small buttons end */
+
+/* Big buttons start */
+
+.ays-pro-features-v2-big-buttons-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    visibility: hidden;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ays-pro-features-v2-main-box:hover .ays-pro-features-v2-big-buttons-box{
+    visibility: visible;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-upgrade-button{
+    display: flex;
+    background-color: #fff;
+    border-radius: 31px;
+    color: #F47535;
+    font-size: 20px;
+    box-shadow: 0px 1px 2px #00000036;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-upgrade-button:hover{
+    color: #FF5500;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-video-button{
+    display: flex;
+    background-color: #fff;
+    border-radius: 31px;
+    color: #6392D4;
+    font-size: 20px;
+    box-shadow: 0px 1px 2px #00000036;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    width: 250px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-video-button:hover{
+    color: #3571C4;
+}
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-upgrade-icon,
+.ays-pro-features-v2-main-box .ays-pro-features-v2-big-buttons-box .ays-pro-features-v2-video-icon{
+    width: 40px;
+    height: 40px;
+    background-repeat: repeat;
+    background-size: cover;    
+    /* transition: .10s; */
+}
+
+/* Big buttons end */
+
+/* Themes styles start */
+
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-button,
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button{    
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-button .ays-pro-features-v2-upgrade-icon,
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-button .ays-pro-features-v2-video-icon,
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button .ays-pro-features-v2-view-demo-icon{    
+    width: 19px;
+    height: 19px;
+}
+
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button .ays-pro-features-v2-view-demo-icon{    
+    opacity: 0.8 !important;
+}
+
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-button .ays-pro-features-v2-view-demo-icon:hover{    
+    opacity: 1 !important;
+}
+
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-upgrade-text,
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-video-text,
+.ays-pro-features-v2-main-box-themes .ays-pro-features-v2-small-buttons-box .ays-pro-features-v2-view-demo-text{
+    display: none;
+}
+
+/* Themes styles end */
+
+.ays-pro-features-v2-main-box input[type="checkbox"]{
+    border-color: #D1D1D1;
+    background-color: #EDF2FC;
+    /* border-width: 2px; */
+    box-shadow: unset;
+}
+
+.ays-pro-features-v2-main-box *{
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.ays-pro-features-v2-small-buttons-box,
+.ays-pro-features-v2-small-buttons-box *,
+.ays-pro-features-v2-big-buttons-box,
+.ays-pro-features-v2-big-buttons-box *,
+.ays-pro-features-v2-main-box .ays-survey-zindex-for-pro,
+.ays-pro-features-v2-main-box iframe{
+    pointer-events: auto !important;
+    opacity: 1;
+}
+
+.popup_survey_position_block{
+    position: relative;
+}
+
+table#ays-survey-popup-position-table{
+    width: 120px;
+    border: 1px solid #B8B8B8;
+    cursor: pointer;
+}
+
+table#ays-survey-popup-position-table td{
+    border-bottom: 1px solid #B8B8B8;
+    border-right: 1px solid #B8B8B8;
+    height: 25px;
+}
+
+/* PRO features popup | start*/
+.ays-modal-backdrop.overlay-pro-features-popup-modal {
+    z-index: 1000001 !important;
+}
+.ays-pro-features-v2-big-buttons-box.pro_features_popup_only_hover,
+.ays-pro-features-v2-big-buttons-box.pro_features_popup {
+    /*background-color: #dfdfdf;*/
+    background: rgba(53 113 196 / 5%);
+    border-radius: 10px;
+    /*box-shadow: 0 1px 2px 0 #d9d9da;*/
+    color: #636a84;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    transition: all .05s;
+    white-space: nowrap;
+    /*opacity: 0.5;*/
+    transition: 0.15s;
+}
+.ays-pro-features-v2-big-buttons-box.pro_features_popup_only_hover:hover,
+.ays-pro-features-v2-big-buttons-box.pro_features_popup:hover {
+    background-color: #3571C4;
+    background-color: rgba(53 113 196 / 10%);
+    color: #fff;
+}
+
+.ays-pro-features-v2-big-buttons-box input[type=checkbox] {
+    border: 1px solid #D1D1D1;
+    background: #EDF2FC;
+}
+
+div.ays-pro-features-v2-big-buttons-box input,
+div.ays-pro-features-v2-big-buttons-box textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border-color: rgba(220, 220, 222, 0.75);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.04);
+    color: rgba(44, 51, 56, 0.5);
+}
+
+div.ays-pro-features-v2-big-buttons-box select {
+    border-color: rgba(220, 220, 222, 0.75);
+    color: rgba(44, 51, 56, 0.5);
+}
+
+div.ays-pro-features-v2-big-buttons-box button {
+    border-color: rgba(220, 220, 222, 0.75);
+    color: rgba(44, 51, 56, 0.5);
+}
+
+div.ays-pro-features-v2-big-buttons-box label.ays_quiz_rw_icon,
+div.ays-pro-features-v2-big-buttons-box label.ays_quiz_loader {
+    border-color: rgba(220, 220, 222, 0.75);
+    font-weight: normal;
+}
+
+div.pro-features-popup-conteiner {
+    display: none;
+}
+
+#pro-features-popup-modal .ays-modal-header {
+    padding: 0 16px;
+}
+
+#pro-features-popup-modal .ays-modal-body {
+    padding: 20px;
+}
+
+#pro-features-popup-modal .ays-modal-content {
+    margin: auto;
+    border-radius: 5px;
+}
+
+#pro-features-popup-modal .ays-modal-header .ays-close-pro-popup {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-left-section {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-section {
+    padding-right: 0;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box {
+    text-align: center;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-icon {
+    margin-top: 1em;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-icon i {
+    font-size: 50px;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-title {
+    color: #1d2327;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-content {
+    width: 90%;
+    margin: auto;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-content div {
+    margin-top: 5px;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-content p {
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-button {
+    margin-top: 20px;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-button .pro-features-popup-modal-right-box-link {
+    -webkit-appearance: none;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #606266;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    text-align: center;
+    transition: .1s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    white-space: nowrap;
+    text-decoration: none;
+
+    background-color: #409eff;
+    border-color: #409eff;
+    color: #fff;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-right-box-button .pro-features-popup-modal-right-box-link:hover{
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #fff;
+}
+
+#pro-features-popup-modal .pro-features-popup-modal-left-section iframe {
+    max-width: 100%;
+}
+
+.only_pro_save_as_default .pro_features.pro_features_popup {
+    background-color: transparent;
+}
+
+.only_pro_save_as_default .pro_features.pro_features_popup:hover {
+    background-color: transparent;
+}
+
+.only_pro_save_as_default .button.ays_default_btn {
+    opacity: 0.4;
+}
+
+#pro-features-popup-modal.ays-modal{
+    z-index: 1000002 !important;
+}
+
+@media screen and (min-width: 1500px){
+    #pro-features-popup-modal .ays-modal-content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    div#pro-features-popup-modal .pro-features-popup-modal-left-section iframe {
+        height: 315px;
+        max-width: 100%;
+    }
+
+    div#pro-features-popup-modal .ays-modal-header .ays-close-pro-popup {
+        position: absolute;
+        right: 5px;
+        top: -5px;
+    }
+
+    div#pro-features-popup-modal .ays-modal-body .row {
+        padding: 20px;
+    }
+
+    div#pro-features-popup-modal .pro-features-popup-modal-right-section {
+        padding: 0;
+    }
+
+    div#pro-features-popup-modal .pro-features-popup-modal-right-box-content {
+        width: 90%;
+    }
+
+    div.ays_save_default_button_box {
+        display: block;
+    }
+
+}
+
+/*PRO features popup | end*/
+
+.ays-pro-features-v2-main-box .ays-pro-features-v2-video-button:empty{
+    display: none !important;
+}
+
+
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+/*************************************** DEVELOPER VERSION DIFFERENCE END ******************************************/
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+/************************************* AGENCY VERSION DIFFERENCE START ******************************************/
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+
+/**************************************************************************************************************/
+/**************************************************************************************************************/
+/*************************************** AGENCY VERSION DIFFERENCE END ******************************************/
+/**************************************************************************************************************/
+/**************************************************************************************************************/
